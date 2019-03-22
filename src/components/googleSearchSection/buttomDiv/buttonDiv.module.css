@@ -1,0 +1,31 @@
+.buttonDiv{
+    padding-top: 19px;
+    width: 575px;
+    height: 74px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.buttonDiv button{
+    color: #777;
+    background-color: #eee;
+    border: 1px solid transparent;
+    box-shadow: 0 0 1px #ddd;
+    padding: 0px 16px;
+    margin: 11px 6.5px;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 36px;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: normal;
+    font-stretch: 100%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.buttonDiv button:hover{
+  color: #444;
+  border: 1px solid #ccc;
+}

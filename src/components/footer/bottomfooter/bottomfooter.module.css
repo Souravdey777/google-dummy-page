@@ -1,0 +1,30 @@
+.bottomleft{
+    display: flex;
+    align-items: flex-start;
+    padding: 13px 15px;
+    flex: 1;
+}
+.bottomright{
+    display: flex;
+    align-items: flex-start;
+    padding: 13px 15px;
+}
+.rows{
+    display: flex;
+    flex-flow: row;
+}
+.text{
+    color: #444;
+    font-size: 13px; 
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: normal;
+    font-stretch: 100%;
+    text-decoration: none;
+    padding: 0px 14px;
+}
+.text:hover{
+    text-decoration: underline
+}
+.text:active{
+    color: red;
+}

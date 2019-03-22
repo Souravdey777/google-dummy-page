@@ -1,0 +1,15 @@
+.cube{
+    width: 4px;
+    height: 4px;
+    margin: 2px 1px;
+    background-color: #777;
+}
+
+.rows{
+    display: flex;
+    flex-flow: row;
+}
+
+.rows:hover  .cube{
+        background-color: #333;
+}

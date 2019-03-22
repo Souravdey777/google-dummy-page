@@ -1,0 +1,13 @@
+.logo {
+    color: #222;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-top: 148px;
+    padding-bottom: 27px;
+    text-align: center;
+    width: 272px;
+    height: 92px;
+    z-index: 10;
+  }
+  

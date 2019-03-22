@@ -1,0 +1,15 @@
+.languages{
+    font-size: 13px;
+    color: #000;
+    letter-spacing: normal;
+}
+
+.languages a{
+  padding-left: 9px;
+  color: rgb(5, 2, 155);
+  text-decoration: none;
+}
+
+.languages a:hover{
+    text-decoration: underline;
+}
