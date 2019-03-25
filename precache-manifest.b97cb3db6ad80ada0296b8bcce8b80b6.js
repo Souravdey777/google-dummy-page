@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/google-dummy-page/static/media/googleNews.6bd59059.png"
   },
   {
-    "revision": "dbb4e25f195c80c13e1b",
-    "url": "/google-dummy-page/static/css/main.3d847915.chunk.css"
+    "revision": "9205860944c685f7f43a",
+    "url": "/google-dummy-page/static/css/main.32127f70.chunk.css"
   },
   {
     "revision": "a664aacf683d14919140",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/google-dummy-page/static/media/maps.fc38a6e4.png"
   },
   {
-    "revision": "dbb4e25f195c80c13e1b",
+    "revision": "9205860944c685f7f43a",
     "url": "/google-dummy-page/static/js/main.6ccf03c1.chunk.js"
   },
   {
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/google-dummy-page/static/media/photos.163fe871.ico"
   },
   {
-    "revision": "a14cf0abcfb413d56266683621294f7b",
+    "revision": "7a5cf9dff8adf5caf09d33b0e1149455",
     "url": "/google-dummy-page/index.html"
   }
 ];
