@@ -1,14 +1,18 @@
 .bottomleft{
     display: flex;
-    align-items: flex-start;
     padding: 13px 15px;
     flex: 1;
 }
 .bottomright{
     display: flex;
-    align-items: flex-start;
     padding: 13px 15px;
 }
+
+.bottomrightSecondary{
+    display: none;
+    padding: 13px 15px;
+}
+
 .rows{
     display: flex;
     flex-flow: row;
@@ -28,3 +32,25 @@
 .text:active{
     color: red;
 }
+
+@media(max-width:580px){
+    .rows{
+        display: flex;
+        flex-flow: column-reverse;
+
+    }
+    .bottomleft{
+        display: flex;
+        justify-content: center;
+    }
+    .bottomright{
+        display: none;
+    }
+    .bottomrightSecondary{
+        display: flex;
+        justify-content: center;
+    }
+    .text{
+        font-size: 16px;
+    }
+  }

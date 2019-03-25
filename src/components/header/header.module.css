@@ -28,3 +28,13 @@
 .coustomTooltipWidth{
     max-width: 100px;
 }
+
+@media(max-width:580px){
+    .menu a{
+        display: none;
+    }
+    .menu{
+        padding-right: 3px;
+    }
+    
+  }

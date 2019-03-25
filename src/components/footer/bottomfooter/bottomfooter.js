@@ -9,10 +9,18 @@ const BottomFooter = (props) =>
             <a className={Classnames.text} href="https://about.google/intl/en_in/?utm_source=google-IN&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
         </div>
         <div className={Classnames.bottomright}>
-        <a className={Classnames.text} href="https://policies.google.com/privacy?hl=en&gl=in">Privacy</a>
-        <a className={Classnames.text} href="https://policies.google.com/terms?hl=en&gl=in">Terms</a>
-        <div className={Classnames.text} onClick={props.clicked}>Settings</div>
-    </div>
+            <a className={Classnames.text} href="https://policies.google.com/privacy?hl=en&gl=in">Privacy</a>
+            <a className={Classnames.text} href="https://policies.google.com/terms?hl=en&gl=in">Terms</a>
+            <div className={Classnames.text} onClick={props.clicked}>Settings</div>
+
+        </div>
+        <div className={Classnames.bottomrightSecondary}>
+            <div className={Classnames.text} onClick={props.clicked}>Settings</div>
+            <a className={Classnames.text} href="https://policies.google.com/privacy?hl=en&gl=in">Privacy</a>
+            <a className={Classnames.text} href="https://policies.google.com/terms?hl=en&gl=in">Terms</a>
+
+
+        </div>
     </div>
     );
 export default BottomFooter;

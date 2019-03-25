@@ -6,3 +6,9 @@
   -ms-user-select: none;      /* IE 10+ */
   user-select: none;          /* Likely future */ 
 }
+
+@media(max-width:580px){
+  .App{
+    margin: 10px 0px;
+  }
+}
