@@ -7,3 +7,10 @@
     flex-flow: column;
     background-color: #eee;
 }
+
+@media(max-width:580px){
+    .footer{
+        position: unset;
+        margin-top: 240px;
+    }
+  }

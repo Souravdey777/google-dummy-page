@@ -5,10 +5,15 @@
     display: flex;
     flex-flow: row;
     justify-content: center;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */ 
 }
 
 .buttonDiv button{
     color: #555;
+    outline: none;
     background-color: #eee;
     border: 1px solid transparent;
     box-shadow: 0 0 1px #ddd;
