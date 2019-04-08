@@ -34,3 +34,8 @@
   color: #444;
   border: 1px solid #ccc;
 }
+@media(max-width:580px){
+  .buttonDiv{
+    display: none;
+  }
+}

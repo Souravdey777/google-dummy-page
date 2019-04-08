@@ -41,7 +41,7 @@
     .bottomleft{
         display: flex;
         justify-content: center;
-        padding: 13px 0px;
+        padding: 10px 0px;
     }
     .bottomright{
         display: none;
@@ -49,6 +49,9 @@
     .bottomrightSecondary{
         display: flex;
         justify-content: center;
-        padding: 13px 0px;
+        padding: 10px 0px;
+    }
+    .text{
+        font-size: 12px;
     }
   }
