@@ -11,3 +11,10 @@
     font-stretch: 100%;
     text-decoration: none;
 }
+
+@media(max-width:580px){
+    .top{
+        padding: 12px;
+        padding-left: 30px;
+    }
+  }

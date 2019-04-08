@@ -37,11 +37,11 @@
     .rows{
         display: flex;
         flex-flow: column-reverse;
-
     }
     .bottomleft{
         display: flex;
         justify-content: center;
+        padding: 13px 0px;
     }
     .bottomright{
         display: none;
@@ -49,8 +49,6 @@
     .bottomrightSecondary{
         display: flex;
         justify-content: center;
-    }
-    .text{
-        font-size: 16px;
+        padding: 13px 0px;
     }
   }
