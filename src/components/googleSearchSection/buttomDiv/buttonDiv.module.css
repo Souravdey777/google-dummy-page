@@ -12,9 +12,9 @@
 }
 
 .buttonDiv button{
-    color: #555;
+    color: #5F6368;
     outline: none;
-    background-color: #eee;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
     border: 1px solid transparent;
     box-shadow: 0 0 1px #ddd;
     padding: 0px 16px;
@@ -31,8 +31,12 @@
 }
 
 .buttonDiv button:hover{
-  color: #444;
+  color: #222;
   border: 1px solid #ccc;
+}
+.buttonDiv button:active{
+  color: #222;
+  border: 1px solid #4285F4;
 }
 @media(max-width:580px){
   .buttonDiv{

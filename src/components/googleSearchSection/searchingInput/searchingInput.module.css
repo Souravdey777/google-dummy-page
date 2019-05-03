@@ -29,10 +29,7 @@
     border: 1px solid transparent;
   }
   
-.SearchingInput:active{
-    box-shadow: 1px 1px 8px #ccc;
-    border: 1px solid transparent;
-  }
+
 
   .mic{
     padding-top: 12px;
