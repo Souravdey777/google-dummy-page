@@ -15,8 +15,17 @@
 .languages a:hover{
     text-decoration: underline;
 }
+
+.nobreak{
+  white-space: nowrap; 
+}
 @media(max-width:580px){
   .languages{
-    font-size: 11px;
+    padding: 20px;
+    font-size: 13px;
+    line-height: 2;
+  }
+  .nobreak{
+    font-weight: 600;
   }
 }

@@ -4,7 +4,7 @@ import Classnames from './languages.module.css';
 
 const Languages = () =>
         <div className={Classnames.languages}>
-            Google offered in:
+            <span className={Classnames.nobreak}>Google offered in:</span>
             <a href="https://www.google.co.in/setprefs?sig=0_9ZudHcwY5VgcZjuwjXQrLFDwWg0%3D&amp;hl=hi&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiS5bfY4ZDhAhXEpI8KHXObB3sQ2ZgBCAg">हिन्दी</a>
             <a href="https://www.google.co.in/setprefs?sig=0_9ZudHcwY5VgcZjuwjXQrLFDwWg0%3D&amp;hl=bn&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiS5bfY4ZDhAhXEpI8KHXObB3sQ2ZgBCAk">বাংলা</a>
             <a href="https://www.google.co.in/setprefs?sig=0_9ZudHcwY5VgcZjuwjXQrLFDwWg0%3D&amp;hl=te&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiS5bfY4ZDhAhXEpI8KHXObB3sQ2ZgBCAo">తెలుగు</a>
