@@ -5,6 +5,7 @@
     justify-content: space-around;
     font-size: 12px;
     padding: 30px 5px;
+    padding-bottom: 60px;
 }
 .svg {
     width: 24px;
@@ -15,7 +16,8 @@
     margin-bottom: 10px;
 }
 .box{
-    padding: 5px;
+    width: 100px;
+    padding: 8px;
     text-decoration: none !important;
     color: #5F6368;
     text-align: center;
