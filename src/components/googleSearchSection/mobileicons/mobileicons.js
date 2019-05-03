@@ -27,7 +27,7 @@ class Mobileicons extends Component {
         </svg>
         Entertainment News
       </a>
-      <a className={classNames.box} href="https://www.google.com/search?q=restaurants+near+me">
+      <a className={classNames.box} href="https://www.google.com/maps/search/restaurants+near+me/">
         <svg className={classNames.svg} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
         <g fill="none" fillRule="evenodd"> <path d="M6.75 12h2.5v10h-2.5z" fill="#FABB05"></path> <path d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97h2.5C11.35 12.84 13 11.12 13 9V2h-2v7z" fill="#BDBDBD"></path> <path d="M18.5 12.97H21V22h-2.5z" fill="#FABB05"></path> <path d="M16 6v8h5V2c-2.76 0-5 2.24-5 4z" fill="#BDBDBD"></path> <path d="M0 0h24v24H0"></path> </g>
         </svg>
