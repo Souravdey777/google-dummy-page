@@ -11,10 +11,24 @@ class GoogleSearchSection extends React.Component {
         query: "",
         url: '',
     }
+    
+    gettime() {
+        var AmorPm = "am"
+        var a = new Date();
+
+        var hour = "0" + a.getHours();
+        var min = "0" + a.getMinutes();
+        if (hour > 12) {
+            hour = "0" + (hour - 12)
+            AmorPm = "pm";
+        }
+        var date = a.getDate() + '/' + (a.getMonth() + 1) + '/' + a.getFullYear() + " " + hour.substr(-2) + ':' + min.substr(-2) + AmorPm;
+        return date;
+    }
 
     DataKeeper=()=>{
         
-        let text={query:`${this.state.query}`}
+        let text={query:`${this.state.query}`,dt: this.gettime()}
         axios.post("https://gdummypage777.firebaseio.com/results.json",text)
         .then(response => {
             console.log(response);
